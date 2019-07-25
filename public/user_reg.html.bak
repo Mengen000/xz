@@ -1,0 +1,16 @@
+<h2>用户注册</h2>
+
+
+<!-- 
+  form 表单标签，用于提交
+  method 设置请求的方法 post/get
+  action 设置请求的url
+  name 设置每条数据的名称
+-->
+<form method="post" action="/reg">
+ 用户：<input type="text" name="uname"><br>
+ 密码：<input type="text" name="upwd"><br>
+ 邮箱：<input type="text" name="email"><br>
+ 手机：<input type="text" name="phone"><br>
+<input type="submit">
+</form>

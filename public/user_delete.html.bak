@@ -1,0 +1,5 @@
+<h2>删除用户</h2>
+<form method="get" action="/user/delete">
+<input type="text" name="uid">
+<input type="submit">
+</form>
